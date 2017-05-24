@@ -22,8 +22,8 @@ module.exports = {
         assetsSubDirectory: 'static',
         assetsPublicPath: '/',
         proxyTable: {
-            '/slsAdminApi': {
-                target: 'http://slsadmin.api.sailengsi.com',
+            '/werewolf': {
+                target: 'http://localhost:8080',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/slsAdminApi': ''
