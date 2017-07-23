@@ -29,3 +29,4 @@ module.exports = [{
 	.concat(require('./router/demo.js'))
 	.concat(require('./router/components.js'))
 	.concat(require('./router/adv.js'))
+  .concat(require('./router/club'))

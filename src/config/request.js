@@ -27,6 +27,10 @@ var request=[{
 	module:'open',
 	name:'第三方接入',
 	list:require('./request/open.js')
+},{
+  module:'club',
+  name:'商家管理',
+  list:require('./request/club.js')
 }];
 
 module.exports=request;

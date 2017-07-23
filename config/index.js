@@ -23,10 +23,10 @@ module.exports = {
         assetsPublicPath: '/',
         proxyTable: {
             '/werewolf': {
-                target: 'http://localhost:8080',
+                target: 'http://werewolf.mrourou.com',
                 changeOrigin: true,
                 pathRewrite: {
-                    '^/slsAdminApi': ''
+                    '^/werewolf': '/werewolf'
                 }
             },
 	        '/slsAdminQiniu': {

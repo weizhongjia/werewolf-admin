@@ -56,7 +56,7 @@ module.exports = function (type, url, data, fn, {
       //如果你们的后台不会接受headers里面的参数，打开这个注释，即实现token通过普通参数方式传
       // data.token = this.$store.state.user.userinfo.token;
 
-      options.headers.token = this.$store.state.user.userinfo.token;
+      options.headers.Authorization = this.$store.state.user.userinfo.token;
     }
 
     //axios内置属性均可写在这里

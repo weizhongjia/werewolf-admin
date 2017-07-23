@@ -3,4 +3,5 @@ module.exports = {
 	Demo: require('./Demo/'),
 	Adv: require('./Adv/'),
 	Components: require('./Components/'),
+  Club: require('./Club')
 };
